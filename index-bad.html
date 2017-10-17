@@ -23,7 +23,9 @@
   <button type="button" class="btn btn-annot btn-annot-title" data-toggle="modal" data-target="#annotModal01">01</button>
   <button type="button" class="btn btn-annot btn-annot-meta" data-toggle="modal" data-target="#annotModal02">02</button>
 
-  <div class="site-header">
+
+  <header class="site-header btn-annot-outline" role="banner">
+
     <div class="skip-links">
       <a href="#main-menu">Skip to Main Menu</a>
       <a href="#main-content" class="btn-annot-outline">Skip to Main Content</a>
@@ -135,9 +137,9 @@
       </div>
     </div>
 
-  </div>
+  </header>
 
-  <div class="btn-annot-outline" id="main-content">
+  <main class="btn-annot-outline" role="main" id="main-content">
 
     <div class="full-cover btn-annot-outline bg-faded">
       <div class="container btn-annot-outline">
@@ -281,9 +283,39 @@
       </div>
     </div>
     
-  </div>
-  
-  <div class="full-cover btn-annot-outline site-footer bg-grey">
+  </main>
+
+  <footer class="full-cover btn-annot-outline site-footer bg-grey" role="contentinfo">
+    <div class="container btn-annot-outline text-center">
+      <button type="button" class="btn btn-annot" data-toggle="modal" data-target="#annotModal04">04</button>
+
+      <div class="d-inline-block annot-relative">
+        <ul class="pipe-links list-inline mt-2 mb-3 btn-annot-outline" aria-label="footer links">
+          <li class="list-inline-item">
+            <a href="/index.html">About A11Y</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/index.html">Universal Design</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/index.html">Privacy en cookies</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/index.html">Disclaimer</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="/index.html">Accessibility</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-annot" data-toggle="modal" data-target="#annotModal14">14</button>
+      </div>
+
+    </div>
+    <div class="footer-copyright py-2">
+      <p class="m-0">&copy; 2017 Copyright</p>
+    </div>
+  </footer>
+
     <div class="container btn-annot-outline text-center">
       <button type="button" class="btn btn-annot" data-toggle="modal" data-target="#annotModal04">04</button>
       
@@ -532,7 +564,7 @@
     <div id="search">...<input type="text" />...</div>
   </div>
 </div>
-<div id="main-content">
+<div id="main-content2">
   <h1>ING</h1>
   ...
 </div>
