@@ -120,7 +120,7 @@
     <div class="brandbar brandbar-a">
       <div class="brandbar-image brandbar-image-kitesurf"></div>
       <div class="container">
-        <div class="brandbar-header">          
+        <header class="brandbar-header">
           <div class="brandbar-heading">
             <span class="d-block annot-relative">
               <span class="brandbar-title btn-annot-outline">Inaccessible Home Page</span>
@@ -133,7 +133,7 @@
               </a>
             </span>
           </div>        
-        </div>
+        </header>
       </div>
     </div>
 
@@ -404,7 +404,7 @@
                     <ul>
                       <li><a href="http://www.w3.org/TR/WCAG20-TECHS/F25.html">F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents</a></li>
                     </ul>
-                  </div>
+
                 </li>
               </ul>
             
@@ -538,7 +538,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
+            <header class="modal-body">
               <p>Not using ARIA landmark roles or HTML5 sectioning elements to describe document structure and outline different parts of the page, such as navigation, main content and footer info.</p>
               
               <p>For more information refer to the W3C <a href="https://www.w3.org/TR/wai-aria-practices/examples/landmarks/HTML5.html">HTML5 Sectioning Elements: ARIA Landmarks Example</a>.</p>
@@ -553,17 +553,17 @@
               
 <pre class="highlight">
 <code class="html">
-<div id="header">
+<header role="banner">
   <div id="logo">...</div>
-  <div id="navigation">
+    <nav role="navigation">
     <ul>
       <li>Payments</li>
       <li>Savings</li>
       <li>Mortgages</li>
     </ul>
-    <div id="search">...<input type="text" />...</div>
-  </div>
-</div>
+   <nav role="search">...<input type="text" />...</nav>
+  </nav>
+</header>
 <div id="main-content2">
   <h1>ING</h1>
   ...
@@ -698,7 +698,7 @@ Everyone kept saying "No comprendo nada de lo que dices."</p>
                 <li>No relationship between and status for menu present</li>
                 <li>No text alternative present for functional icon</li>
                 <li>Menu not marked up with a list and no nested relationsship present</li>
-                <li>No indication of current / active link</span>
+                <li>No indication of current / active link</li>
               </ul>
 
               <div class="alert alert-info">
